@@ -1,37 +1,26 @@
-# MapsKML
-Google Maps Android API v2 Samples
-Samples demonstrating how to use Google Maps based on KML.
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.google.maps.android/android-maps-utils/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.google.maps.android/android-maps-utils) [![Build Status](https://travis-ci.org/googlemaps/android-maps-utils.svg?branch=master)](https://travis-ci.org/googlemaps/android-maps-utils) ![Analytics](https://maps-ga-beacon.appspot.com/UA-12846745-20/android-maps-utils/readme?pixel)
 
-Getting Started
-These samples use the Gradle build system.
+# Google Maps Android API utility library
 
-First download the samples by cloning this repository or downloading an archived snapshot. (See the options at the top of the page.)
+This open-source library contains utilities that are useful for a wide
+range of applications using the [Google Maps Android API][android-site].
 
-In Android Studio, use the "Import non-Android Studio project" or "Import Project" option. Next select one of the sample directories that you downloaded from this repository. If prompted for a gradle configuration accept the default settings.
+- **Marker clustering** — handles the display of a large number of points
+- **Heat maps** — display a large number of points as a heat map
+- **IconGenerator** — display text on your Markers
+- **Poly decoding and encoding** — compact encoding for paths,
+  interoperability with Maps API web services
+- **Spherical geometry** — for example: computeDistance, computeHeading,
+  computeArea
+- **KML** — displays KML data
+- **GeoJSON** — displays and styles GeoJSON data
 
-Alternatively use the "gradlew build" command to build the project directly.
+<p align="center"><img width="90%" vspace="20" src="https://cloud.githubusercontent.com/assets/1950036/6629704/f57bc6d8-c908-11e4-815a-0d909fe02f99.gif"></p>
 
-Add your API key to the AndroidManifest.xml file. See the quick guide to getting an API key.
+For more information, check out the detailed guide on the
+[Google Developers site][devsite-guide]. You can also view the generated
+[reference docs][javadoc] for a full list of classes and their methods.
 
-Support
-Stack Overflow: https://stackoverflow.com/questions/tagged/android+google-maps
-If you have discovered an issue with the Google Maps Android API v2, please see the resources here: https://developers.google.com/maps/support/
-
-If you've found an error in these samples, please file an issue: https://github.com/googlemaps/android-samples/issues
-
-Patches are encouraged, and may be submitted according to the instructions in CONTRIBUTING.md.
-
-Analytics
-
-License
-(See each sample directory for details.)
-
-Copyright 2015 The Android Open Source Project
-
-Copyright 2015 Google, Inc.
-
-Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements. See the NOTICE file distributed with this work for additional information regarding copyright ownership. The ASF licenses this file to you under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+[android-site]: https://developer.android.com/training/maps/index.html
+[devsite-guide]: https://developers.google.com/maps/documentation/android-api/utility/
+[javadoc]: http://googlemaps.github.io/android-maps-utils/javadoc/
